@@ -1,5 +1,5 @@
-import { getStaticProps } from './[pageName]'
+import { getServerSideProps } from './[pageName]'
 import PageName from './[pageName]'
 
-export { getStaticProps }
+export { getServerSideProps }
 export default PageName
