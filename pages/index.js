@@ -41,7 +41,7 @@ export default function Home({ dataT, foodData, beansData, goodsData }) {
 
             <div className="flex justify-end">
               <button className={styles.btn}>
-              <Link href={`${NEXT_URL}/page/beverage`}>More </Link><FaAngleRight />
+              <Link href={`menu/beverage`}>More </Link><FaAngleRight />
               </button>
             </div>
 
@@ -61,7 +61,7 @@ export default function Home({ dataT, foodData, beansData, goodsData }) {
 
             <div className="flex justify-end">
               <button className={styles.btn}>
-              <Link href={`${NEXT_URL}/page/food`}>More </Link><FaAngleRight />
+              <Link href={`menu/food`}>More </Link><FaAngleRight />
               </button>
             </div>
         
@@ -80,7 +80,7 @@ export default function Home({ dataT, foodData, beansData, goodsData }) {
 
             <div className="flex justify-end">
               <button className={styles.btn}>
-              <Link href={`${NEXT_URL}/page/beans`}>More </Link><FaAngleRight />
+              <Link href={`menu/beans`}>More </Link><FaAngleRight />
               </button>
             </div>
         
@@ -99,7 +99,7 @@ export default function Home({ dataT, foodData, beansData, goodsData }) {
 
             <div className="flex justify-end">
               <button className={styles.btn}>
-              <Link href={`${NEXT_URL}/page/goods`}>More </Link><FaAngleRight />
+              <Link href={`menu/goods`}>More </Link><FaAngleRight />
               </button>
             </div>
         

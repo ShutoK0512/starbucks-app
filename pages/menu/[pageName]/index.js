@@ -1,8 +1,7 @@
-import {NEXT_URL} from '../../config/index'
-import {useEffct} from 'react'
-import Layout from '../../components/Layout'
-import styles from '../../styles/Detail.module.css'
-import ItemsList from '../../components/ItemsList'
+import {NEXT_URL} from '../../../config/index'
+import Layout from '../../../components/Layout'
+import styles from '../../../styles/Detail.module.css'
+import ItemsList from '../../../components/ItemsList'
 
 function DetailPage({ pgs }) {
 
