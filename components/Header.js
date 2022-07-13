@@ -20,13 +20,13 @@ function Header() {
                             <li>
                             <Link href="/">TOP</Link></li>
                         <li>
-                            <Link href={`${NEXT_URL}/page/beverage`}>ビバレッジ メニュー</Link></li>
+                            <Link href={`/page/beverage`}>ビバレッジ メニュー</Link></li>
                         <li>
-                            <Link href={`${NEXT_URL}/page/food`}>フードメニュー</Link></li>
+                            <Link href={`/page/food`}>フードメニュー</Link></li>
                         <li>
-                            <Link href={`${NEXT_URL}/page/beans`}>コーヒー豆</Link></li>
+                            <Link href={`/page/beans`}>コーヒー豆</Link></li>
                         <li>
-                            <Link href={`${NEXT_URL}/page/goods`}>タンブラー＆グッズ</Link></li>
+                            <Link href={`/page/goods`}>タンブラー＆グッズ</Link></li>
                     </ul>
                 </div>
             </ul>
