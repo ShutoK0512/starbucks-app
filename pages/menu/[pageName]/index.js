@@ -55,8 +55,8 @@ export default DetailPage
 // }
 
 
-export async function getServerSideProps({ query: {slug}}) {
-    const res = await fetch(`https://product.starbucks.co.jp/api/category-product-list/${slug}/index.json`)
+export async function getStaticProps({ query: {pageName}}) {
+    const res = await fetch(`https://product.starbucks.co.jp/api/category-product-list/${pageName}/index.json`)
     const datas = await res.json()
 
     return {
