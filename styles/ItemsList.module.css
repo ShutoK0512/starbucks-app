@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 1.6rem;
+}
+
+.wrapper img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.wrapper h3 {
+  background-color: #404040;
+  color: white;
+  padding: 0.2rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.wrapper h4 {
+  color: #404040;
+  font-weight: 600;
+}
+
+.wrapper .note {
+  color: #636363;
+  overflow: hidden;
+}
+
+.wrapper .price {
+  color: #636363;
+  font-weight: 600;
+  text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper .note {
+    font-size: 0.7rem;
+  }
+}

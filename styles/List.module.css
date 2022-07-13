@@ -1,0 +1,13 @@
+.listItem {
+  margin: 1rem;
+  text-align: center;
+  max-width: 300px;
+}
+
+.listItem img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 250px;
+  height: 250px;
+}

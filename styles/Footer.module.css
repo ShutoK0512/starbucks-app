@@ -1,0 +1,4 @@
+.footer {
+  @apply bg-gray-800 text-white text-center;
+  font-size: 0.7rem;
+}

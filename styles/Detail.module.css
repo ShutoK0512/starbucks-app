@@ -1,0 +1,24 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.itemWrapper {
+  @apply inline-grid gap-4 grid-cols-3 grid-rows-3;
+}
+
+.wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .itemWrapper {
+    @apply inline-grid gap-4 grid-cols-2 grid-rows-3;
+  }
+}
